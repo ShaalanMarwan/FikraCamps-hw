@@ -52,7 +52,7 @@ function HowManyLetters(word) {}
 console.log(HowManyLetters("kkssffoos"));
 
 
-/** Q6
+/** Q5
   * Create a function that takes an array of integers as an argument and returns the same array in ascending order. Using sort() would be easy, but for this challenge YOU have to sort the array creating your own algorithm.
  
  Examples
@@ -68,7 +68,7 @@ console.log(HowManyLetters("kkssffoos"));
  This is a challenge to enhance your ability, using the sort built-in won't enhance your skills.
   */
 
-/** Q7
+/** Q6
   * Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.
  
  Examples
@@ -79,7 +79,7 @@ console.log(HowManyLetters("kkssffoos"));
  minMax([1]) ➞ [1, 1]
   */
 
-/** Q8
+/** Q7
   * Create a function that takes an array of numbers between 1 and 10 (excluding one number) and returns the missing number.
  
  Examples
@@ -93,7 +93,7 @@ console.log(HowManyLetters("kkssffoos"));
  Only one number will be missing.
   */
 
-/** Q9
+/** Q8
   * Write a function that accepts a positive integer between 0 and 999 inclusive and returns a string representation of that integer written in English.
  
  Examples
