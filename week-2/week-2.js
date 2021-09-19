@@ -13,7 +13,25 @@
 
 // sortByLength([]) ➞ []
 
-function sortByLength(){}
+function sortByLength(str){
+    var index=0;
+     for(let i=0;i<str.length-1;i++){
+         if(str[i].length>str[i+1].length){
+             var tmp=str[i];
+             str[i]=str[i+1];
+             str[i+1]=tmp;
+             index++;
+         }
+     }
+     if(index!==0) {
+         sortByLength(str);}
+    return str;
+}
+console.log(sortByLength(["a", "ccc", "dddd", "bb"]));
+console.log(sortByLength(["apple", "pie", "shortcake"]));
+console.log(sortByLength(["may", "april", "september", "august"]));
+console.log(sortByLength([]));
+
 
 
 
